@@ -1,15 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Base.Theme.Design">
-        <!-- Customize your theme here. -->
-    </style>
 
     <style name="Base.Theme.Design" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/style_color_primary</item>
         <item name="colorPrimaryDark">@color/style_color_primary_dark</item>
         <item name="colorAccent">@color/style_color_accent</item>
         <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
     <style name="WebViewTheme" parent="Theme.AppCompat.Light.NoActionBar">

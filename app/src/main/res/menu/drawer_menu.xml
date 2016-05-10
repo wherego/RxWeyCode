@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_daily"
+            android:checked="true"
+            android:icon="@drawable/ic_daily"
+            android:title="@string/String_all"/>
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_resources"
+            android:title="@string/String_other"/>
+        <item
+            android:id="@+id/nav_welfare"
+            android:icon="@drawable/ic_welfare"
+            android:title="@string/String_welfare"/>
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_video"
+            android:title="@string/String_video"/>
+    </group>
+</menu>

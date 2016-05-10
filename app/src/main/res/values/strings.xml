@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">RxWeyCode</string>
+    <string name="String_android">Android</string>
+    <string name="String_ios">IOS</string>
+    <string name="String_welfare">福利</string>
+    <string name="String_video">视频</string>
+    <string name="String_other">学习资料</string>
+    <string name="String_js">前端</string>
+    <string name="String_all">每日精彩</string>
+    <string name="String_resource">拓展资源</string>
+    <string name="String_app">APP</string>
+    <string name="String_recommend">瞎推荐</string>
+
+    <string name="menu_download">下载</string>
+    <string name="menu_share">分享</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="about">关于</string>
 </resources>
