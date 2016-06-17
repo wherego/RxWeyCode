@@ -124,14 +124,14 @@ public abstract class CommonListFragment extends BaseFragment implements CommonL
     }
 
     @Override
-    public void showError(String msg, View.OnClickListener onClickListener) {
+    public void showError(String msg) {
         refreshLayout.setRefreshing(false);
         page = --page; //请求出错，页码减1
         UIHelper.showToast(msg);
     }
 
     @Override
-    public void showEmpty(String msg, View.OnClickListener onClickListener) {
+    public void showEmpty(String msg) {
     }
 
     /**
