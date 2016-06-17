@@ -22,4 +22,8 @@ public class BasePresenter<V extends BaseView> implements Presenter<V> {
     public V getView() {
         return view;
     }
+    
+    public boolean isViewAttached() {
+        return view != null;
+    }
 }
